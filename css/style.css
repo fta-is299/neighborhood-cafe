@@ -1,0 +1,63 @@
+h1,
+h2 {
+    margin-top: 1.4em;
+    margin-bottom: 0;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1542181961-9590d0c79dab?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjMyMDgwOTY&ixlib=rb-1.2.1&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+main {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    margin-top: 5%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #342a1d;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #dbd7c3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 2em;
+    line-height: 5;
+    color: maroon;
+    font-family: verdana, sans-serif;
+}
+
+nav li:hover {
+    background-color: #c6b59e;
+}
