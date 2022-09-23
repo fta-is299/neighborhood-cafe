@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FantasticTony's Cafe</title>
+    <title>FantasticTony's Cafe | Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet"/>
 </head>
@@ -69,27 +69,62 @@
             </div>
         </nav>
     </div>
-    <div class="hero-body puff-in-center">
+    <div class="hero-body fade-in-top">
         <div class="container has-text-centered">
-            <div class="column is-8 is-offset-2">
-                <div class="card" id="content-container">
-                    <div class="card-content">
-                        <div class="content">
-                            <img width="600"
-                                 src="https://images.unsplash.com/photo-1519203131305-7b9731fdbe39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"/>
-                            <h1 class="title has-text-black">Our Cafe</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos praesentium doloremque quod
-                                quisquam tempore dicta incidunt nesciunt dolorum officia suscipit. Assumenda repellendus
-                                tempore aperiam est nam esse eligendi, quibusdam exercitationem.</p>
-                            <h2 class="title has-text-black">Our Coffee</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae explicabo repellendus
-                                odio quibusdam repudiandae dolorem magni, ducimus asperiores exercitationem
-                                recusandae?</p>
-                            <h2 class="title has-text-black">Our Tea</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio nostrum
-                                necessitatibus rerum unde quidem? Reiciendis in explicabo minima maxime.</p>
+            <div class="columns is-8 is-variable ">
+                <div class="column is-two-thirds has-text-left">
+                    <h1 class="title is-1">Contact Us</h1>
+                    <p class="is-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean pharetra.</p>
+                </div>
+
+                <div class="card column is-one-third has-text-left" id="contact-form-container">
+                    <form method="get">
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input class="input is-medium" type="text" name="name">
+                            </div>
                         </div>
-                    </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input class="input is-medium" type="text" name="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Rate for us</label>
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" value="1" name="rate">
+                                    &#9733;
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="2" name="rate">
+                                    &#9733;&#9733;
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="3" name="rate">
+                                    &#9733;&#9733;&#9733;
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="4" name="rate">
+                                    &#9733;&#9733;&#9733;&#9733;
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea is-medium" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <button type="submit"
+                                    class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
